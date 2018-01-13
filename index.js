@@ -6,4 +6,4 @@
    const newArr = arr.filter(person => person.revenue > money);
    return newArr.map(person => person.name);
  }
- function exactMatch()
+ function exactMatch(name, obj)
