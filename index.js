@@ -7,6 +7,6 @@
    return newArr.map(person => person.name);
  }
  function exactMatch(arr, obj) {
-   const key = Object.key(obj);
+   const key = Object.keys(obj);
    return arr.filter(person => person[key] === obj[key]);
  }
