@@ -8,5 +8,5 @@
  }
  function exactMatch(arr, obj) {
    const key = Object.key(obj);
-   return arr.filter(person => person[key] === obj[key])
+   return arr.filter(person => person[key] === obj[key]);
  }
