@@ -12,5 +12,5 @@
  }
 
  function exactMatchToList(arr, obj){
-   exactMatch(arr, obj).map(person => person.name)
+   return exactMatch(arr, obj).map(person => person.name);
  }
