@@ -4,5 +4,5 @@
  }
  function driverNamesWithRevenueOver(arr, money) {
    const newArr = arr.filter(person => person.revenue > money);
-   return arr.map(person => person.name)
+   return newArr.map(person => person.name)
  }
