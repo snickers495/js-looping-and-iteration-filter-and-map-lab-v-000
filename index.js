@@ -10,3 +10,7 @@
    const key = Object.keys(obj);
    return arr.filter(person => person[key] === obj[key]);
  }
+
+ function exactMatchToList(arr, obj){
+   exactMatch(arr, obj).map(person => person.name)
+ }
